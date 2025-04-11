@@ -1,0 +1,144 @@
+.body{
+    padding: 0;
+    border: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+
+.header{ 
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/bg-header.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+#fontheader{
+    color: white;
+}
+
+/* <weight>: Use a value from 100 to 900
+<uniquifier>: Use a unique and descriptive class name */
+
+.raleway-800 {
+    top: 7px;
+left: 530px;
+width: 221px;
+height: 59px;
+/* UI Properties */
+text-align: left;
+font-style: normal;
+    font-family: "Raleway", sans-serif;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+font-size: xx-large;
+}
+.raleway-400 {
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+.raleway-100 {
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+.raleway-700 {
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+.section1{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 80px;
+}
+.main-bg{
+    background-color: black;
+    padding: 0px;
+    border: 0;
+}
+#foto-ig{
+    top: 845px;
+left: 731px;
+width: 399px;
+height: 237px;
+}
+
+.div_caract{
+    display: flex ; 
+    justify-content: center; 
+    
+}
+li{
+    display:flex;
+    justify-content: space-around;
+}
+
+.navbar{
+    padding: 0;
+	display: flex;
+	gap: 5px;
+	list-style: none;
+}
+
+.nav_items{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	cursor: pointer;
+	padding: 25px;
+    
+}
+.ul_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+}
+.icons{
+    font-size: 35px;
+}   
+
+.section2{
+opacity: 98%;
+background-color:rgb(36, 33, 30);
+width: 100%;
+}
+
+.section3{
+    margin: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gallery_items{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.gallery_items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer{
+    background-color: rgb(36, 33, 30);
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
